@@ -1,10 +1,3 @@
-//
-//  Packable.swift
-//  Sporti
-//
-//  Created by prcela on 11/05/16.
-//  Copyright © 2016 minus5. All rights reserved.
-//
 
 import Foundation
 
@@ -14,9 +7,6 @@ protocol Packable
     func messagePackValue() -> MessagePackValue
 }
 
-protocol PackableDic: Packable {
-    func identifier() -> Int
-}
 
 struct Point: Packable {
     
